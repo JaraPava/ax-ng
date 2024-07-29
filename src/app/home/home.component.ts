@@ -8,6 +8,7 @@ import { SeccionLlamadaComponent } from './secciones/seccion-llamada/seccion-lla
   standalone: true,
   imports: [
     RouterModule,
+    SeccionLlamadaComponent
   ],
   templateUrl: './home.component.html',
 })
