@@ -1,0 +1,48 @@
+@import '../../abstracts/variables';
+
+.destacados {
+  background-color: $background-cafe-claro;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+
+  &__titulo {
+    color: $fuente-negro;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: $poppins;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  &__panel-imagen,
+  &__panel-texto {
+    width: 100vw;
+    max-width: 600px;
+  }
+
+  &__panel-imagen {
+    box-shadow: 0 2px 10px 5px #00000020;
+    margin-bottom: .5rem;
+  }
+
+  &__panel-texto {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: normal;
+    color: $fuente-negro;
+    margin-bottom: 1rem;
+  }
+
+  &__boton {
+    border-color: $boton-rojo;
+    margin: 0 auto;
+  }
+}
