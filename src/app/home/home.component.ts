@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { SeccionLlamadaComponent } from './secciones/seccion-llamada/seccion-llamada.component';
 import { SeccionDestacadosComponent } from './secciones/seccion-destacados/seccion-destacados.component';
+import { SeccionDiferencialesComponent } from './secciones/seccion-diferenciales/seccion-diferenciales.component';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,8 @@ import { SeccionDestacadosComponent } from './secciones/seccion-destacados/secci
   imports: [
     RouterModule,
     SeccionLlamadaComponent,
-    SeccionDestacadosComponent
+    SeccionDestacadosComponent,
+    SeccionDiferencialesComponent
   ],
   templateUrl: './home.component.html',
 })
